@@ -1,0 +1,43 @@
+body {
+    padding: 0 28%;
+
+    background-color: #EE2665;
+    font-family: 'MyWebFont';
+    color: white;
+    font-size: 4em;
+    /* line-height: 2; */
+    /* overflow-wrap: break-word; */
+    /* word-break: break-word;
+    hyphens: auto; */
+
+}
+
+/* Sábado 27/06▪️ @pepitaofc em Guru da #AmeIGTV<spam class = "hashtag" > #AmeSemModeração</spam> @useamedigital SPOILER: Vem surpresinhas por ai, rs!  */
+
+@font-face {
+
+    font-family: 'MyWebFont';
+    src: url('./assets/Ubuntu-Bold.ttf');
+
+}
+
+p {
+    padding: 0 0 10% 0;
+    /* border: white;
+    border-style: solid; */
+    border-width: 0.1em;
+    /* background-color: violet; */
+
+
+
+}
+
+input {
+    width: 100%;
+
+
+}
+
+.hashtag {
+    font-size: .5em;
+}
