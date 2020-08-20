@@ -1,41 +1,49 @@
 body {
     padding: 0 28%;
-
-    background-color: #EE2665;
+    background-color: #090dff;
     font-family: 'MyWebFont';
     color: white;
-    font-size: 4em;
+    font-size: 3em;
     /* line-height: 2; */
     /* overflow-wrap: break-word; */
-    /* word-break: break-word;
-    hyphens: auto; */
+    word-break: break-word;
+    hyphens: auto;
+    text-transform: uppercase;
+    letter-spacing: .1em;
 
 }
-
-/* Sábado 27/06▪️ @pepitaofc em Guru da #AmeIGTV<spam class = "hashtag" > #AmeSemModeração</spam> @useamedigital SPOILER: Vem surpresinhas por ai, rs!  */
 
 @font-face {
 
     font-family: 'MyWebFont';
-    src: url('./assets/Ubuntu-Bold.ttf');
+    src: url('./assets/FONTH___.TTF');
 
 }
 
 p {
-    padding: 0 0 10% 0;
-    /* border: white;
-    border-style: solid; */
-    border-width: 0.1em;
-    /* background-color: violet; */
+    padding: 10%;
+    
+    background-color: rgb(255, 255, 255);
+    color: black;
+    
+    border-style: solid; 
+    border-color: white;
+    border-width: 15px;
+  
+    text-shadow: #ffffff -1px 1px, #ffffff -2px 2px, #ffffff -3px 3px, #ffffff -4px 4px, #ffffff -5px 5px;
 
+    background-image: radial-gradient(ellipse farthest-corner, transparent 0%, transparent 35%, #fff 30%, #fff 40%, transparent 90%), radial-gradient(ellipse farthest-corner at 0px 0px, transparent 0%, transparent 20%, #fff 15%, #fff 20%, transparent 50%), radial-gradient(ellipse farthest-corner at 8px 8px, transparent 0%, transparent 20%, #fff 15%, #fff 20%, transparent 50%), radial-gradient(ellipse farthest-corner at 0px 8px, transparent 0%, transparent 20%, #fff 15%, #fff 20%, transparent 40%), radial-gradient(ellipse farthest-corner at 8px 0px, transparent 0%, transparent 20%, #fff 15%, #fff 20%, transparent 50%),  linear-gradient(40deg, #bd2d10 0, #f4502f 30%, #ff6e51 50%, #f4502f 70%, #bd2d10 100%);
+    background-size: 8px 8px, 8px 8px, 8px 8px, 8px 8px, 8px 8px, 100% 100%;
 
+    margin-bottom: 10%;
 
+  
+ 
+    
 }
 
 input {
     width: 100%;
-
-
 }
 
 .hashtag {
