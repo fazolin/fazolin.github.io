@@ -1,9 +1,9 @@
 body {
-    padding: 0 28%;
+    padding: 0 18%;
     background-color: #090dff;
     font-family: 'MyWebFont';
     color: white;
-    font-size: 3em;
+    font-size: 4em;
     /* line-height: 2; */
     /* overflow-wrap: break-word; */
     word-break: break-word;
@@ -16,7 +16,8 @@ body {
 @font-face {
 
     font-family: 'MyWebFont';
-    src: url('./assets/FONTH___.TTF');
+    src: url('./assets/din-bold.otf');
+    font-weight: bolder;
 
 }
 
@@ -24,13 +25,14 @@ p {
     padding: 10%;
     
     /* background-color: rgb(255, 255, 255); */
-    color: black;
+    color: rgb(255, 255, 255);
+    /* background-color: white; */
     
     /* border-style: solid; 
     border-color: white;
     border-width: 15px; */
   
-    text-shadow: #ffffff -1px 1px, #ffffff -2px 2px, #ffffff -3px 3px, #ffffff -4px 4px, #ffffff -5px 5px;
+    /* text-shadow: #ffffff -1px 1px, #ffffff -2px 2px, #ffffff -3px 3px, #ffffff -4px 4px, #ffffff -5px 5px; */
 
     /* background-image: radial-gradient(ellipse farthest-corner, transparent 0%, transparent 35%, #fff 30%, #fff 40%, transparent 90%), radial-gradient(ellipse farthest-corner at 0px 0px, transparent 0%, transparent 20%, #fff 15%, #fff 20%, transparent 50%), radial-gradient(ellipse farthest-corner at 8px 8px, transparent 0%, transparent 20%, #fff 15%, #fff 20%, transparent 50%), radial-gradient(ellipse farthest-corner at 0px 8px, transparent 0%, transparent 20%, #fff 15%, #fff 20%, transparent 40%), radial-gradient(ellipse farthest-corner at 8px 0px, transparent 0%, transparent 20%, #fff 15%, #fff 20%, transparent 50%),  linear-gradient(40deg, #bd2d10 0, #f4502f 30%, #ff6e51 50%, #f4502f 70%, #bd2d10 100%);
     background-size: 8px 8px, 8px 8px, 8px 8px, 8px 8px, 8px 8px, 100% 100%; */
